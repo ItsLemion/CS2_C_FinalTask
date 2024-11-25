@@ -1,7 +1,20 @@
-cmake_minimum_required(VERSION 3.29)
-project(CS2_C_FinalTask C)
+cmake_minimum_required(VERSION 3.16)
+
+project(untitled)
 
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CS2_C_FinalTask
-    main.c)
+# Find the raylib package
+find_package(raylib REQUIRED)
+
+# Add the source files
+add_executable(untitled main.c)
+
+# Link raylib to the project
+target_link_libraries(untitled raylib)
+
+# Add the platform-specific dependencies for Unix systems
+if(UNIX AND NOT APPLE)
+    target_link_libraries(untitled m dl pthread)
+endif()

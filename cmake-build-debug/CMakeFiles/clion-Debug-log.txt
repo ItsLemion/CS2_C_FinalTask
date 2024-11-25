@@ -1,10 +1,19 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/devi/Documents/GitHub/CS2_C_FinalTask -B /Users/devi/Documents/GitHub/CS2_C_FinalTask/cmake-build-debug
--- The C compiler identification is AppleClang 16.0.0.16000026
+/home/eebe_beebe/Downloads/CLion-2024.3/clion-2024.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/eebe_beebe/CLionProjects/untitled -B /home/eebe_beebe/CLionProjects/untitled/cmake-build-debug
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (1.1s)
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found raylib: /usr/local/lib/libraylib.so
+-- Configuring done (1.0s)
+CMake Error: Cannot determine link language for target "untitled".
+CMake Error: CMake can not determine linker language for target: untitled
 -- Generating done (0.0s)
--- Build files have been written to: /Users/devi/Documents/GitHub/CS2_C_FinalTask/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/untitled.dir/main.c.o -o untitled  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -lm -ldl -lpthread -L/usr/local/lib -lraylib
