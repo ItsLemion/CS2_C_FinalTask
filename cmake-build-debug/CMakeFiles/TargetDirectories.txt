@@ -1,3 +1,0 @@
-/Users/devi/Documents/GitHub/CS2_C_FinalTask/cmake-build-debug/CMakeFiles/CS2_C_FinalTask.dir
-/Users/devi/Documents/GitHub/CS2_C_FinalTask/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/devi/Documents/GitHub/CS2_C_FinalTask/cmake-build-debug/CMakeFiles/rebuild_cache.dir
