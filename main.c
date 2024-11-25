@@ -1,4 +1,7 @@
-jfjf//
+#include <stdio.h>
+
+
+//
 // iceencdjncd kjcd
 
 //
